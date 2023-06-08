@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    * {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      text-transform: capitalize;
+      transition: 0.2s linear;
+      align-items: center;
+    }
+
+    .container {
+      min-height: 100vh;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      animation: gradient 15s ease infinite;
+      background-size: 400% 400%;
+      padding: 15px 9%;
+      padding-bottom: 10px;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .container .heading {
+      padding-top: 5vh;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 15px;
+      color: whitesmoke;
+      text-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+      font-size: 62px;
+      font-family: 'Berkshire Swash', cursive;
+      margin-bottom: 2vw;
+      margin-top: 1vw;
+      -webkit-text-stroke: 0.5px black;
+      
+    }
+
+    .container .box-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 15px;
+    }
+
+    .container .box-container .box {
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      text-align: center;
+      padding: 30px 20px;
+      position: relative;
+    }
+
+   
+
+    .container .box-container .box h3 {
+      background-color: #00000077;
+      color: rgb(222, 219, 219);
+      font-family: 'Dancing Script', cursive;
+      font-size: 22px;
+      padding: 10px 0;
+      bottom: 0;
+      left: 0;
+    }
+
+
+    .container .box-container .box .btn1 {
+      margin-top: 10px;
+      display: inline-block;
+      font-family: 'Libre Baskerville', serif;
+      background: #000000;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 5px;
+      padding: 8px 25px;
+      bottom: 0;
+      left: 0;
+      transform: translate(1px,42px);
+    }
+
+    .container .box-container .box .btn2 {
+      margin-top: 10px;
+      display: inline-block;
+      font-family: 'Libre Baskerville', serif;
+      background: #000000;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 5px;
+      padding: 8px 25px;
+      bottom: 0;
+      left: 0;
+      transform: translate(1px,68px);
+    }
+
+    .container .box-container .box .btn3 {
+      margin-top: 10px;
+      display: inline-block;
+      font-family: 'Libre Baskerville', serif;
+      background: #000000;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 5px;
+      padding: 8px 25px;
+      bottom: 0;
+      left: 0;
+      transform: translate(1px,43px);
+    }
+
+    .container .box-container .box .btn4 {
+      margin-top: 10px;
+      display: inline-block;
+      font-family: 'Libre Baskerville', serif;
+      background: #000000;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 5px;
+      padding: 8px 25px;
+      bottom: 0;
+      left: 0;
+      transform: translate(1px,43px);
+    }
+
+    .container .box-container .box .btn5 {
+      margin-top: 10px;
+      display: inline-block;
+      font-family: 'Libre Baskerville', serif;
+      background: #000000;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 5px;
+      padding: 8px 25px;
+      bottom: 0;
+      left: 0;
+      transform: translate(1px,43px);
+    }
+
+    .container .box-container .box .btn6 {
+      margin-top: 10px;
+      display: inline-block;
+      font-family: 'Libre Baskerville', serif;
+      background: #000000;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 5px;
+      padding: 8px 25px;
+      bottom: 0;
+      left: 0;
+      transform: translate(1px,69px);
+    }
+
+    .container .box-container .box .btn7 {
+      margin-top: 10px;
+      display: inline-block;
+      font-family: 'Libre Baskerville', serif;
+      background: #000000;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 5px;
+      padding: 8px 25px;
+      bottom: 0;
+      left: 0;
+      transform: translate(1px,43px);
+    }
+
+    .container .box-container .box .btn8 {
+      margin-top: 10px;
+      display: inline-block;
+      font-family: 'Libre Baskerville', serif;
+      background: #000000;
+      color: #fff;
+      font-size: 17px;
+      border-radius: 5px;
+      padding: 8px 25px;
+      bottom: 0;
+      left: 0;
+      transform: translate(1px,43px);
+    }
+
+    .container .box-container .box .btn1:hover {
+      box-shadow: 0px 0px 15px rgba(255, 255, 255);
+      vertical-align: bottom;
+    }
+    .container .box-container .box .btn2:hover {
+      box-shadow: 0px 0px 15px rgba(255, 255, 255);
+      vertical-align: bottom;
+    }
+    .container .box-container .box .btn3:hover {
+      box-shadow: 0px 0px 15px rgba(255, 255, 255);
+      vertical-align: bottom;
+    }
+    .container .box-container .box .btn4:hover {
+      box-shadow: 0px 0px 15px rgba(255, 255, 255);
+      vertical-align: bottom;
+    }
+    .container .box-container .box .btn5:hover {
+      box-shadow: 0px 0px 15px rgba(255, 255, 255);
+      vertical-align: bottom;
+    }
+    .container .box-container .box .btn6:hover {
+      box-shadow: 0px 0px 15px rgba(255, 255, 255);
+      vertical-align: bottom;
+    }
+    .container .box-container .box .btn7:hover {
+      box-shadow: 0px 0px 15px rgba(255, 255, 255);
+      vertical-align: bottom;
+    }
+    .container .box-container .box .btn8:hover {
+      box-shadow: 0px 0px 15px rgba(255, 255, 255);
+      vertical-align: bottom;
+    }
+
+    .container .box-container .box:hover {
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+      transform: scale(1.03);
+      border: 3px solid black;
+      border-radius: 5px;
+      
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+    }
+
+    .box{
+      min-height: 203px;
+      position: relative;
+      justify-content: center;
+    }
+
+    #d1{
+      background-image: url(alps.jpg);  
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #d2{
+      background-image: url(khajjiar.jpg);  
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #d3{
+      background-image: url(chamera.jpg);  
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #d4{
+      background-image: url(dharamshala.jpg);  
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #d5{
+      background-image: url(naddi.jpg);  
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #d6{
+      background-image: url(Bhagsunag.jpg);  
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #d7{
+      background-image: url(palampur.jpg);  
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #d8{
+      background-image: url(mcleodganj.jpg);  
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    
+  </style>
+  <body>
+    <div class="container">
+      <h1 class="heading">Dalhousie McLeodganj Trip 2023</h1>
+
+      <div class="box-container">
+        <div class="box" id="d1">
+          <h3>Alps Resort and Kalatop Wildlife Sanctuary</h3>
+          <a href="https://photos.app.goo.gl/yeU85iWhkFi1HxBj8" class="btn1">GET PHOTOS</a>
+        </div>
+
+        <div class="box" id="d2">
+          <h3>Khajjiar</h3>
+          <a href="https://photos.app.goo.gl/dVYoRG27abo16PfL7" class="btn2">GET PHOTOS</a>
+        </div>
+
+        <div class="box" id="d3">
+          <h3>ManiMahesh, Chamera-Lake, Panchpula</h3>
+          <a href="https://photos.app.goo.gl/bRiAw18eVBpnjqyf7" class="btn3">GET PHOTOS</a>
+        </div>
+
+        <div class="box" id="d4">
+          <h3>Dharamshala Stadium, Tea Garden, War Memorial</h3>
+          <a href="https://photos.app.goo.gl/kay1SFmRQzbiAkJX6" class="btn4">GET PHOTOS</a>
+        </div>
+
+        <div class="box" id="d5">
+          <h3>Naddi, Bhaksunag, Dalai Lama Temple, St John Church</h3>
+          <a href="https://photos.app.goo.gl/cxEA6aZ3j2jUcHdq9" class="btn5">GET PHOTOS</a>
+        </div>
+
+        <div class="box" id="d6">
+          <h3>Bhagsunag Waterfalls</h3>
+          <a href="https://photos.app.goo.gl/D6quS1nonrqfs59V8" class="btn6">GET PHOTOS</a>
+        </div>
+
+        <div class="box" id="d7">
+          <h3>Palampur Tea Garden, Monastery, Zoo</h3>
+          <a href="https://photos.app.goo.gl/dTYEKANzcjaChzBCA" class="btn7">GET PHOTOS</a>
+        </div>
+
+        <div class="box" id="d8">
+          <h3>Mcleodganj Hotel/Streets, Pathankot-Prayagraj</h3>
+          <a href="https://photos.app.goo.gl/PVkjTx4UVBzHzGgX8" class="btn8">GET PHOTOS</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
